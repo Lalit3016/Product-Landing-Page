@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InfoPillar-Task-3</title>
+
+
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="/fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+    <!-- For Styling CSS,JS -->
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+
+    <!-- BootStrap CSS Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#myNavbarExample" id="bodies">
+
+    <!-- **************** Header Part (Navigation) ********************* -->
+    <header>
+        <div class="container-fluid" id="head">
+            <div class="row">
+                <div class="col-3">
+                    <h1 class="navbar-brand" id="brandName">
+                        <img src="logo.png" alt="">ROLEX
+                    </h1>
+                </div>
+
+                <div class="col-9">
+                    <nav id="myNavbarExample" class="navbar navbar-expand-md navbar-dark">
+                        <button class="navbar-toggler ms-auto" data-bs-toggle="collapse" data-bs-target="#myNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a href="#home" class="nav-link">HOME</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a href="#projects" class="nav-link">ABOUT</a>
+                                </li>
+
+
+
+                                <li class="nav-item ">
+                                    <a href="#w4" class="nav-link">SPECIFICATION</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a href="#Pricing" class="nav-link">PRICING</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a href="#contact" class="nav-link">CONTACT</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- **************** Home Page ********************* -->
+    <section id="home">
+        <div id="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mt-5 py-5">
+                        <div id="banner-title">
+                            <img src="welcome-mockup.png" alt="" class="vert-move">
+                            <h1>Get Prolend Product Landing Page</h1>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                                architecto beatae vitae dicta sunt explicabo.
+                            </p>
+                            <div class="bbv bb-n1">
+                                <p class="ppm" style="color: black;">Get App</p>
+                            </div>
+                            <div class="bbv bb-n2">
+                                <p class="ppm" style="color: black;">Learn More</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="projects" style="margin-top: -25px;">
+
+        <div id="project-section">
+            <div id="project-1">
+                <img src="product-thumb-01.png" alt="">
+                <div id="prosec-1" class="p-4">
+                    <!-- <h5 id="pt-1">PROJECT NAME</h5> -->
+                    <p id="pp-1">
+                    <ul>
+                        <li>
+
+                            High-Resolution Audio compatible
+                        </li>
+
+                        <li> Smart listening experience by Adaptive Sound Control</li>
+                        <li>Ergonomic, enfolding design earpads</li>
+                    </ul>
+                    </p>
+                    <button type="button" class="samebtn" id="probtn-1 ">Order Now</button>
+                </div>
+            </div>
+
+            <div id="project-2">
+                <img src="product-thumb-02.png" alt="">
+                <div id="prosec-2" class="p-4">
+                    <!-- <h5 id="pt-2">PROJECT NAME</h5> -->
+                    <p id="pp-2">
+                    <ul>
+                        <li>
+
+                            High-Resolution Audio compatible
+                        </li>
+
+                        <li> Smart listening experience by Adaptive Sound Control</li>
+                        <li>Ergonomic, enfolding design earpads</li>
+                    </ul>
+                    </p>
+                    <button type="button" class="samebtn" id="probtn-2" onclick="backchange2()">Order Now</button>
+                </div>
+            </div>
+
+            <div id="project-3">
+                <img src="product-thumb-03.png" alt="">
+                <div id="prosec-3" class="p-4">
+                    <!-- <h5 id="pt-3">PROJECT NAME</h5> -->
+                    <p id="pp-3">
+                    <ul>
+                        <li>
+
+                            High-Resolution Audio compatible
+                        </li>
+
+                        <li> Smart listening experience by Adaptive Sound Control</li>
+                        <li>Ergonomic, enfolding design earpads</li>
+                    </ul>
+                    </p>
+                    <button type="button" class="samebtn" id="probtn-3" onclick="backchange3()">Order Now</button>
+                </div>
+            </div>
+
+
+        </div>
+        </div>
+    </section>
+
+    <!-- **************** Pricing Table Page ********************* -->
+    <section id="about-watch">
+        <div class="w1">
+            <div class="wa1">
+                <h2>Get more out of Prolend Watch</h2>
+                <ol>
+                    <li>
+                        Fully layered dolor sit amet, consectetur adipisicing elit. Facere, nobis, id expedita dolores
+                        officiis laboriosam.
+                    </li>
+
+                    <li>Customizable design dolor sit amet, consectetur adipisicing elit. Facere, nobis, id expedita
+                        dolores officiis laboriosam.
+                    </li>
+                    <li>Drop ipsum dolor sit amet, consectetur adipisicing elit. Facere, nobis, id expedita dolores
+                        officiis laboriosam.</li>
+
+                    <li>Marketing chart dolor sit amet, consectetur adipisicing elit. Facere, nobis, id expedita dolores
+                        officiis laboriosam.
+
+
+                    </li>
+
+                </ol>
+                <a href="https:rolex.com">LEARN MORE--></a>
+            </div>
+            <div class="wa1-img" id="wa2">
+                <img src="product-thumb-03.png" alt="">
+            </div>
+        </div>
+        <div class="w2">
+            <div class="wa1-img">
+                <img src="product-thumb-01.png" alt="">
+            </div>
+            <div class="wa2">
+                <h2 style="color: darkblue;">Get up to $100 for your Prolend Watch Series 2 or Series 3.</h2>
+                <li>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration in some form, by injected humour, or randomised words which don't look even slightly
+                    believable.</li>
+                <a href="https:rolex.com">Shop Now to Get Rewards-></a>
+            </div>
+
+        </div>
+        <div class="w3">
+            <div class="wa3-img">
+                <h2>Your new favorite band is <br>
+                    here.</h2>
+                <h6 style="color: darkgreen;">Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+                    <br>
+                    roots in a piece of classical Latin literature from 45 BC,making it over 2000 <br> years old.
+                    Richard McClintock,a Latin professor at Hampden-Sydney <br> College in Virginia.
+                    <br> <br>
+                    <a href="#g" class="as">Find all your favorite Brands-></a>
+
+                </h6>
+            </div>
+        </div>
+
+        <div class="w4" id="w4">
+
+            <div class="wa4-img">
+                <img src="thumb-01.png" alt="">
+            </div>
+            <div class="wa4">
+                <h3 style="color: chartreuse;">Technical Speci.</h3>
+                <li>There are many variations of passages of Lorem Ipsum available,<br> but the majority have suffered
+                    alteration in some form, by humour,<br> or randomised words which don't look even slightly
+                    believable.
+
+                </li>
+                <div class="inediv">
+                    <div>
+                        <i class="far fa-hand-pointer"></i>
+                        <h2>Fully functional
+                        </h2>
+                        <h5> Lorem ipsum dolor sit ,<br> consectetur adipisicing <br>
+                            Veritatis ex dignissimos.</h5>
+                    </div>
+                    <div style="margin-left: 3rem;">
+                        <i class="fas fa-fingerprint"></i>
+                        <h2>Secure Data
+                        </h2>
+                        <h5>
+                            Veritatis culpa dignissimos.
+
+                            <br> consectetur adipisicing <br>
+                            Veritatis expe dignimos.
+                        </h5>
+                    </div>
+
+                </div>
+
+                <div class="inediv1">
+                    <div>
+                        <i class="fas fa-sms"></i>
+                        <h2>Instance Chat
+                        </h2>
+                        <h5> Lorem ipsum dolor sit ,<br> consectetur adipisicing <br>
+                            Veritatis ex dignissimos.</h5>
+                    </div>
+                    <div style="margin-left: 3rem;">
+                        <i class="fa fa-bell"></i>
+                        <h2>Live Notification
+                        </h2>
+                        <h5>
+                            Veritatis culpa dignissimos.
+
+                            <br> consectetur adipisicing <br>
+                            Veritatis expe dignimos.
+                        </h5>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+
+    <!-- **************** Blog ********************* -->
+
+    <section id="Pricing">
+        <div class="qp">
+            <h1 style="color: blue;">We Have Quality Products</h1>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum <br> obcaecati dignissimos quae quo ad
+                iste ipsum officiis deleniti asperiores <br> sit.
+            </p>
+            <button> &#8592;</button>
+            <button>&#8594;</button>
+        </div>
+        <div class="imgbh">
+            <div class="bh1">
+                <img src="product-thumb-01.png" alt="">
+                <h3>Prolend Watch 2 <br> Pro</h3>
+                <h5>$149.</h5>
+                <p>Amoled Display <br>Retina Ready <br>Enfold Design</p>
+                <button class="hov">Buy Now</button>
+            </div>
+            <div class="bh1">
+                <img src="product-thumb-02.png" alt="">
+                <h3>Smart Headphone <br> Pro</h3>
+                <h5>$119.</h5>
+                <p>Amoled Display <br>Retina Ready <br>Enfold Design</p>
+                <button class="hov">Buy Now</button>
+            </div>
+            <div class="bh1">
+                <img src="thumb-04.png" alt="">
+                <h3>Prolend Bounceback<br> Pro</h3>
+                <h5>$169.</h5>
+                <p>Amoled Display <br>Retina Ready <br>Enfold Design</p>
+                <button class="hov">Buy Now</button>
+            </div>
+            <div class="bh1">
+                <img src="thumb-01.png" alt="">
+                <h3>Altra Smart <br> Pro</h3>
+                <h5>$199.</h5>
+                <p>Amoled Display <br>Retina Ready <br>Enfold Design</p>
+                <button class="hov">Buy Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- **************** Social Media ********************* -->
+
+
+    <section class="compare">
+        <div class="comti">
+            <h1 style="color: aqua;"> Compare Products To Get More <br> Value</h1>
+
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum <br> obcaecati dignissimos quae quo ad
+                iste ipsum officiis deleniti asperiores <br> sit.
+            </p>
+        </div>
+        <div class="davva">
+
+            <table border="1" cellspacing="0" class="tabl">
+                <tr class="tr1">
+                    <td></td>
+                    <td><img src="product-thumb-01.png" alt=""></td>
+
+                    <td><img src="product-thumb-02.png" alt=""></td>
+                    <td><img src="thumb-04.png" alt=""></td>
+                    <td><img src="thumb-01.png" alt=""></td>
+
+
+                </tr>
+
+                <tr class="tr2" style="background-color: blanchedalmond;">
+
+                    <td rowspan="1"> &nbsp
+                        &nbsp &nbsp Price</td>
+                    <td>&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        $149</td>
+                    <td>&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        $119</td>
+                    <td>&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        $169</td>
+                    <td>&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        $199</td>
+                </tr>
+                <tr style="background-color: cadetblue; font-size: .92rem; color: cornsilk;">
+                    <td rowspan="1"> &nbsp
+                        &nbsp&nbsp&nbsp&nbsp Brand</td>
+                    <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Prolend Watch 2 Pro</td>
+                    <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Smart Headphone Pro</td>
+                    <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Prolend Bounceback</td>
+                    <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        Altra Smart Watch
+                    </td>
+                </tr>
+
+                <tr
+                    style="background-color: rgb(173, 219, 136); font-size: 1.1rem;font-weight: 600; color: rgb(24, 19, 2);">
+                    <td rowspan="1"> &nbsp
+                        &nbsp&nbsp&nbsp&nbsp Color</td>
+                    <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        Red</td>
+                    <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        Black</td>
+                    <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        White</td>
+                    <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        Black
+                    </td>
+                </tr>
+                <tr
+                    style="background-color: rgb(200, 243, 245); font-size:.9rem;font-weight: 600; color: rgb(24, 19, 2);">
+                    <td rowspan="1"> &nbsp
+                        &nbsp&nbsp&nbsp&nbsp Operating &nbsp&nbsp System</td>
+                    <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspiOS,Android
+                    </td>
+                    <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        iOS</td>
+                    <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        iOS</td>
+                    <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        iOS,Android
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+    </section>
+
+    <!-- **************Trust************ -->
+
+    <section id="set">
+        <div class="bd">
+            <h1 style="color: gold;">
+                10k+ Customer's Trust Us
+            </h1>
+            <hr>
+            <img src="quote2.png" class="quoto" alt="">
+            <li style="list-style: none;">Lorem ipsum dolor sit amet, consectetur adipisicing <br> Ab voluptates a,
+                architecto unde vitae, harum tenetur saepe <br>
+                aut aspernatur necessitatibus voluptate dolorum, quos dolor earum dolores.</li>
+            <img src="avatar-2.png" class="av" alt="">
+            <br><br>
+            <h5>Josina Kotlina</h5>
+            <h6 style="color: rgb(118, 118, 122);">CO-Founder, Prolend</h6>
+        </div>
+        <div class="bf">
+            <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif ; color: rgb(7, 161, 71);  font-weight: 600;">
+                Frequently Asked Questions</h1>
+            <hr style="color: deeppink;">
+            <li style="list-style: none;">Lorem ipsum dolor sit amet, consectetur adipisicing <br> Ab voluptates a,
+                architecto unde vitae, harum tenetur saepe <br>
+                dolores.</li>
+        </div>
+    </section>
+    <section>
+        <div class="bhg">
+            <h6>1. Can I get free Trail?</h6>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, rerum ipsa ad quod error obcaecati,<br>
+                fugit voluptate sint fuga rem ex, blanditiis commodi ducimus! Adipisci nesciunt voluptatibus quas
+                porro,<br> ullam Lorem ipsum dolor sit. maxime officia unde quibusdam nostrum distinctio velit harum eum
+                ipsum.</p>
+            <h6>2. How to contact Support?</h6>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, rerum ipsa ad quod error obcaecati,<br>
+                fugit voluptate sint fuga rem ex, blanditiis commodi ducimus! Adipisci nesciunt voluptatibus quas
+                porro,<br> ullam Lorem ipsum dolor sit. maxime officia unde quibusdam nostrum distinctio velit harum eum
+                ipsum. <br>fugit voluptate sint fuga rem ex, blanditiis commodi ducimus! Adipisci nesciunt voluptatibus
+                quas porro,<br> ullam Lorem ipsum dolor sit. maxime officia unde quibusdam nostrum distinctio velit
+                harum eum ipsum.</p>
+            <h6>3. Do you have Any Online Doccumentation?</h6>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, rerum ipsa ad quod error obcaecati,<br>
+                fugit voluptate sint fuga rem ex, blanditiis commodi ducimus! Adipisci nesciunt voluptatibus quas
+                porro,<br> ullam Lorem ipsum dolor sit. maxime officia unde quibusdam nostrum distinctio velit harum eum
+                ipsum.</p>
+            <h6>4. How can I update a section content?</h6>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, rerum ipsa ad quod error obcaecati,<br>
+                fugit voluptate sint fuga rem ex, blanditiis commodi ducimus! Adipisci nesciunt voluptatibus quas
+                porro,<br> ullam Lorem ipsum dolor sit. maxime officia unde quibusdam nostrum distinctio velit harum eum
+                ipsum.</p>
+            <h6>5. Do you have any premium plan?</h6>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, rerum ipsa ad quod error obcaecati,<br>
+                fugit voluptate sint fuga rem ex, blanditiis commodi ducimus! Adipisci nesciunt voluptatibus quas
+                porro,<br> ullam Lorem ipsum dolor sit. maxime officia unde quibusdam nostrum distinctio velit harum eum
+                ipsum.</p>
+        </div>
+    </section>
+    <!-- **************** Contact ********************* -->
+
+    <section id="contact" class="cont">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+
+                <div class="col-md-6">
+                    <div id="contact-form">
+                        <div class="col-md-12">
+                            <h2 class="text-center"><b>Contact</b></h2>
+                        </div>
+                        <div class="form-group">
+                            <label><b>NAME</b></label>
+                            <input type="text" class="form-control w-75">
+                        </div>
+                        <div class="form-group mt-3">
+                            <label><b>EMAIL ADDRESS</b></label>
+                            <input type="email" class="form-control w-75">
+                        </div>
+                        <div class="form-group mt-3">
+                            <label><b>SUBJECT</b></label>
+                            <input type="text" class="form-control form-control-lg w-75">
+                        </div>
+                        <div class="form-group mt-3">
+                            <label><b>MESSAGE</b></label>
+                            <textarea class="form-control w-75" rows="4" style="resize: none;"></textarea>
+                        </div>
+                        <div class="form-group mt-3">
+                            <button type="button" class="samebtn btn1 w-75">SEND</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- **************** Footer ********************* -->
+
+    <footer>
+        <div class="container-fluid" id="foot">
+            <div class="row justify-content-center bg-secondary pt-5">
+                <div class="col-sm-3 text-center">
+                    <h6><b>OFFICE ADDRESS</b></h6>
+                    <p>Lorem ipsum dolor,234 <br> 1200 Consectetur <br> Adipisicing</p> <br>
+                </div>
+                <div class="col-sm-3 text-center">
+                    <h6><b>FOLLOW US</b></h6>
+
+                    <img src="/Task1/footer.jpg" alt="">
+                    <br>
+                </div>
+                <div class="col-sm-3 text-center">
+                    <h6><b>CONTACT US</b></h6>
+                    <p>+ 123 456 789 <br> prolend111@skype <br> enquiry@prolend.com</p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+
+<!-- BootStrap JS Link -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+    crossorigin="anonymous"></script>
+
+</html>
